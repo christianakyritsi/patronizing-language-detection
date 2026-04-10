@@ -17,10 +17,10 @@ This project tackles the task of detecting patronizing and condescending languag
 
 | Model | Accuracy | Macro-F1 |
 |---|---|---|
-| TF-IDF + Linear SVM | — | — |
-| DistilBERT (fine-tuned) | 0.77 | 0.39 |
+| TF-IDF + Linear SVM | 0.77 | 0.31 |
+| DistilBERT (fine-tuned) | 0.72 | 0.36 |
 
-> ⚠️ The gap between accuracy and macro-F1 reflects the challenge of severe class imbalance in the dataset.
+> ⚠️ The gap between accuracy and macro-F1 reflects the challenge of severe class imbalance in the dataset — the majority class dominates accuracy while minority classes drag down the F1.
 
 ## 🛠️ Tech Stack
 
